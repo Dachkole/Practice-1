@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width:100%;
+    border: 2px solid black;
+}
+
+header, footer {
+    padding:10px;
+    color:aqua;
+    background-color: darkgrey;
+    text-align: center;
+    border: 2px solid black;
+}
+
+ul {
+    float:right;
+    max-width: 140px;
+    margin-right: 50px;
+    padding: 0;
+    list-style-type: none;
+}
+
+ul a { 
+    text-decoration: none;
+}
+
+article{
+    
+    margin-right: 150px;
+    border-right: 2px solid black;
+    overflow: hidden;
+}
+p,h1 {
+     margin-left: 30px;
+}
